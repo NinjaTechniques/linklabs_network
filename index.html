@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkLabs S.A.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">LinkLabs S.A.</div>
+        <div class="toggle" onclick="toggleMenu()">☰</div>
+        <div class="menu">
+            <a href="#about">Sobre Nosotros</a>
+            <a href="#services">Servicios</a>
+            <a href="#solutions">Soluciones</a>
+            <a href="#network">Rediseño de Red</a>
+            <a href="#contact">Contacto</a>
+        </div>
+    </nav>
+    <header class="header">
+        <h1>LinkLabs S.A.</h1>
+        <p>Innovación y Conectividad para el Futuro</p>
+    </header>
+    <section class="about-us" id="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Sobre Nosotros</h2>
+                <p>
+                    LinkLabs S.A. es un referente en el sector de Tecnologías de la Información con operaciones en
+                    diversas ciudades peruanas. Enfrenta retos en su infraestructura de red debido a una expansión
+                    desorganizada a lo largo de una década. Para superar estos obstáculos, se propone rediseñar la red
+                    para asegurar comunicaciones eficientes, acceso seguro a los datos y escalabilidad.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="aboutus.jpg" alt="LinkLabs S.A.">
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2>Nuestros Servicios</h2>
+        <div class="service-items">
+            <div class="service-item">
+                <h3>Consultoría IT</h3>
+                <p>Ofrecemos asesoramiento experto para optimizar y mejorar la infraestructura tecnológica de su
+                    empresa.</p>
+            </div>
+            <div class="service-item">
+                <h3>Soporte Técnico</h3>
+                <p>Disponemos de un equipo de soporte técnico 24/7 para resolver cualquier inconveniente que pueda
+                    surgir.</p>
+            </div>
+            <div class="service-item">
+                <h3>Implementación de Redes</h3>
+                <p>Diseñamos e implementamos soluciones de red LAN y WAN adaptadas a las necesidades de su negocio.</p>
+            </div>
+        </div>
+    </section>
+    <section class="solutions" id="solutions">
+        <h2>Nuestras Soluciones</h2>
+        <div class="solution-items">
+            <div class="solution-item">
+                <h3>Seguridad Multicapa</h3>
+                <p>Implementamos estrategias de seguridad multicapa para proteger sus datos y comunicaciones.</p>
+            </div>
+            <div class="solution-item">
+                <h3>Infraestructura en la Nube</h3>
+                <p>Ofrecemos servicios de almacenamiento y respaldo en la nube para asegurar la accesibilidad y
+                    seguridad de sus datos.</p>
+            </div>
+            <div class="solution-item">
+                <h3>Integración de Sistemas</h3>
+                <p>Integramos tecnologías propietarias y estándares abiertos para crear soluciones cohesionadas y
+                    eficientes.</p>
+            </div>
+        </div>
+    </section>
+    <section class="network" id="network">
+        <h2>Rediseño de Red</h2>
+        <div class="network-content">
+            <p>
+                Nuestro enfoque integral de rediseño de red asegura comunicaciones eficientes, acceso seguro a los datos
+                y escalabilidad. Utilizamos una arquitectura de red LAN jerárquica y una topología WAN, con estándares
+                de direccionamiento RFC 1918.
+            </p>
+            <img src="rediseño.jpg" alt="Rediseño de Red">
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contacto</h2>
+        <div class="contact-form">
+            <form action="#" method="POST">
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 LinkLabs S.A. Todos los derechos reservados.</p>
+            <ul class="footer-menu">
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#solutions">Soluciones</a></li>
+                <li><a href="#network">Rediseño de Red</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.navbar .menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
