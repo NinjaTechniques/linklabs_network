@@ -25,12 +25,11 @@ LinkLabs S.A, una empresa de TI con múltiples sedes e infraestructura de red qu
 ### Topología sede Lima
 <img src="https://i.postimg.cc/bwqzkV2j/topologia-sede-lima.png" alt="Topología Sede Lima" width="800"/>
 
-
 ### Topología sede Piura
-<img src="https://i.postimg.cc/SKsktXrT/topologia-sede-piura.png" alt="Topología Sede Piura" width="800"/>
+<img src="https://i.postimg.cc/3JgzTgJS/topologia-Piura.png" alt="Topología Sede Piura" width="800"/>
 
 ### Topología sede Arequipa
-<img src="https://i.postimg.cc/65J65pWq/topologia-sede-arequipa.png" alt="Topología Sede Arequipa" width="800"/>
+<img src="https://i.postimg.cc/Sx4F2gvb/topologia-Arequipa.png" alt="Topología Sede Arequipa" width="800"/>
 
 ### Topología sede Cajamarca
 <img src="https://i.postimg.cc/7PTYk2yj/topologia-sede-cajamarca.png" alt="Topología Sede Cajamarca" width="800"/>
@@ -42,10 +41,10 @@ LinkLabs S.A, una empresa de TI con múltiples sedes e infraestructura de red qu
 <img src="https://i.postimg.cc/SR8y7wrm/dns-configured.png" alt="DNS" width="500"/>
 
 ### Página web de la empresa desde Cisco Packet Tracer
-<img src="https://i.postimg.cc/PxvhTB01/web-packet-tracer.png" alt="Web Page" width="800"/>
+<img src="https://i.postimg.cc/L6CLhWXn/web-Packet.png" alt="Web Page" width="800"/>
 
 ### Página web de la empresa LinkLabs (vista del navegador)
-<img src="https://i.postimg.cc/Y2gkVB6H/webpage.png" alt="Web Page LinkLabs" width="800"/>
+<img src="https://i.postimg.cc/R00YKy1y/Web-Landing.png" alt="Web Page LinkLabs" width="800"/>
 
 ## Configuración de la Red
 
